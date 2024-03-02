@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+overflow-x: hidden;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+
+.block1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: blue;
+    color: white;
+}
+.block1left{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+#guitarpic{
+    max-width: 89.5%; 
+    padding: 3px;
+}
+
+.block1middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+  
+}
+
+#Japanpic{
+    max-width: 78%; 
+padding-bottom: 15px;
+    padding-top: 12px;
+}
+
+#professionalpic{
+    max-width: 78%; 
+    padding-bottom: 12px;
+}
+
+.block1right{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 65%;
+}
+
+.block1righttop{
+    
+    font-size: 55px;
+}
+.block1rightbottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
+.block1rightsmall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.block1rightbottoml{
+   
+    width: 20%;
+    padding-left: 5px;
+}
+
+.block1rightbottoml ul{
+    padding-left: 20px;
+}
+
+.block1rightbottommid{
+  
+    width: 30%;
+    padding-left: 5px;
+}
+
+.block1rightbottommid ul{
+    padding-left: 20px;
+}
+
+.block1rightbottomr{
+ 
+    width: 50%;
+    padding-left: 5px;
+}
+
+.block1rightbottomr ul{
+    padding-left: 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.logos img{
+   height: 30px;
+   padding: 5px;
+}
+
+.block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.block2left{
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    width: 50%;
+  
+}
+
+.block2left h2{
+    font-size: 100px;
+    padding: 10px;
+}
+
+.project1{
+    padding: 10px;
+}
+
+.project2{
+    padding: 10px;
+}
+
+.block2right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+#indexpic {
+    max-width: 45%;   
+    aspect-ratio: 12/7;
+    box-shadow: 0 2px 4px rgba(10, 10, 0, 0.3);
+    padding-top: 40px;
+}
+
+#seatpic {
+    max-width: 45%; 
+    aspect-ratio: 12/7;
+    box-shadow: 0 2px 4px rgba(10, 10, 0, 0.3);
+    padding-top: 40px;
+   
+}
+
+.finalblock{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 40px;
+
+}
+
+@media (max-width: 1000px){
+     .content{
+        flex-direction: column;
+    align-items: center;}
+    .block1, .block1left, .block1middle, .block1right, .block1righttop, .block1rightbottom, .block1rightsmall, .block1rightbottoml, .block1rightbottommid, .block1rightbottomr, .logos, .block2, .block2left, .block2right, .finalblock{
+        width: 90%;
+        margin: 0 auto;
+    } 
+    .block2left h2{
+        font-size: 60px;
+    }
+
+    .block1righttop{
+        font-size: 15px;
+    }
+
+    .block1rightbottoml, .block1rightbottommid, .block1rightbottomr{
+        font-size: 7px;
+        padding: 1px;
+    }
+
+    .logos{
+        height: 20px;
+     
+    }
+
+}
